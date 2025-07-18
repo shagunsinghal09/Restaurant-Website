@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flames Restaurant - Modern Fine Dining Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>🔥 Flames</h1>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#reservation" class="nav-link reservation-btn">Reserve Table</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Flames</h1>
+            <p class="hero-subtitle">Where culinary artistry meets exceptional dining</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#reservation" class="btn btn-secondary">Make Reservation</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Our Story</h2>
+                    <p class="about-description">
+                        At Flames, we believe that dining is more than just a meal—it's an experience that ignites all your senses. 
+                        Founded in 2020, our restaurant has become a beacon of culinary excellence, where traditional techniques 
+                        meet innovative flavors.
+                    </p>
+                    <p class="about-description">
+                        Our passionate team of chefs, led by Executive Chef Maria Rodriguez, crafts each dish with precision 
+                        and creativity, using only the finest locally-sourced ingredients. Every flame-grilled creation tells 
+                        a story of dedication, artistry, and love for exceptional cuisine.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Years of Excellence</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Signature Dishes</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10k+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="Images/chef.jpg" alt="Chef at Work" class="about-chef-image">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Discover our carefully crafted dishes</p>
+            
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="appetizers">Appetizers</button>
+                <button class="menu-tab" data-category="mains">Main Courses</button>
+                <button class="menu-tab" data-category="desserts">Desserts</button>
+                <button class="menu-tab" data-category="beverages">Beverages</button>
+            </div>
+
+            <div class="menu-content">
+                <!-- Starters -->
+<div class="menu-category active" id="appetizers">
+    <div class="menu-grid">
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <img src="Images/Paneer Tikka.png" alt="Paneer Tikka" class="menu-img">
+            </div>
+            <div class="menu-item-content">
+                <h3>Paneer Tikka</h3>
+                <p>Marinated paneer cubes grilled in a clay oven with Indian spices</p>
+                <span class="price">₹250</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <img src="Images/Dahi Puri.jpg" alt="Dahi Puri" class="menu-img">
+            </div>
+            <div class="menu-item-content">
+                <h3>Dahi Puri</h3>
+                <p>Crispy puris filled with curd, chutneys and spices</p>
+                <span class="price">₹100</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <img src="Images/mushroom.jpg" alt="Stuffed Mushrooms" class="menu-img">
+            </div>
+            <div class="menu-item-content">
+                <h3>Stuffed Mushrooms</h3>
+                <p>Button mushrooms filled with spicy cheese mix, baked to perfection</p>
+                <span class="price">₹180</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+               <img src="Images/Veg-Momos.jpg" alt="Veg Momos" class="menu-img"> 
+            </div>
+            <div class="menu-item-content">
+                <h3>Veg Momos</h3>
+                <p>Steamed dumplings stuffed with vegetables and served with chutney</p>
+                <span class="price">₹120</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Main Courses -->
+<div class="menu-category" id="mains">
+    <div class="menu-grid">
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🍛</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Butter Chicken</h3>
+                <p>Classic North Indian chicken curry in creamy tomato gravy</p>
+                <span class="price">₹320</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🥬</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Palak Paneer</h3>
+                <p>Homemade paneer in a rich spinach gravy</p>
+                <span class="price">₹260</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🍲</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Dal Makhani</h3>
+                <p>Slow-cooked black lentils in creamy butter sauce</p>
+                <span class="price">₹220</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🍚</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Veg Biryani</h3>
+                <p>Basmati rice cooked with mixed vegetables and aromatic spices</p>
+                <span class="price">₹200</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Desserts -->
+<div class="menu-category" id="desserts">
+    <div class="menu-grid">
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🍨</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Gulab Jamun</h3>
+                <p>Soft milk-solid balls soaked in rose-flavored sugar syrup</p>
+                <span class="price">₹90</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🍮</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Rasmalai</h3>
+                <p>Soft paneer patties soaked in sweetened saffron milk</p>
+                <span class="price">₹120</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🥧</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Kesar Phirni</h3>
+                <p>Chilled rice pudding flavored with saffron and cardamom</p>
+                <span class="price">₹110</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🍰</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Chocolate Samosa</h3>
+                <p>Crispy samosas filled with molten chocolate</p>
+                <span class="price">₹130</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Beverages -->
+<div class="menu-category" id="beverages">
+    <div class="menu-grid">
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🍹</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Mango Lassi</h3>
+                <p>Refreshing yogurt-based mango smoothie</p>
+                <span class="price">₹80</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🧋</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Masala Chai</h3>
+                <p>Traditional Indian tea brewed with spices</p>
+                <span class="price">₹40</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🥛</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Badam Milk</h3>
+                <p>Warm milk infused with almonds and cardamom</p>
+                <span class="price">₹60</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="menu-item-image">
+                <div class="placeholder-content">🥤</div>
+            </div>
+            <div class="menu-item-content">
+                <h3>Lemon Soda</h3>
+                <p>Chilled soda with lemon, mint, and black salt</p>
+                <span class="price">₹50</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-subtitle">A glimpse into our culinary world</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+    <img src="Images/elegant plating.jpg" alt="Elegant Plating">
+    <p>Elegant Plating</p>
+</div>
+
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <img src="Images/open-kitchen.jpg" alt="Open Kitchen">
+                        <p>Open Kitchen</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <img src="Images/fine dining.jpg" alt="Fine Dining">
+                        <p>Fine Dining</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <img src="Images/wine collection.jpg" alt="Wine Collection">
+                        <p>Wine Collection</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <img src="Images/Chef_s-Table-Detail.jpg" alt="Chef's Table">
+                        <p>Chef's Table</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <img src="Images/ambiance.jpg" alt="Ambiance">
+                        <p>Ambiance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <div class="reservation-content">
+                <div class="reservation-text">
+                    <h2 class="section-title">Make a Reservation</h2>
+                    <p class="section-subtitle">Book your table for an unforgettable dining experience</p>
+                    <div class="reservation-info">
+                        <div class="info-item">
+                            <h4>📞 Phone</h4>
+                            <p>+91 1214844683</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>🕐 Hours</h4>
+                            <p>Mon-Thu: 10:00 AM - 10:00 PM<br>
+                               Fri-Sat: 10:00 AM - 11:00 PM<br>
+                               Sun: 4:00 PM - 9:00 PM</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>👥 Group Dining</h4>
+                            <p>Private dining rooms available for parties of 8 or more</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="reservation-form-container">
+                    <form class="reservation-form" id="reservationForm">
+                        <h3>Reserve Your Table</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Select Time</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="17:30">5:30 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="18:30">6:30 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="19:30">7:30 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="20:30">8:30 PM</option>
+                                    <option value="21:00">9:00 PM</option>
+                                    <option value="21:30">9:30 PM</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Guests</label>
+                                <select id="guests" name="guests" required>
+                                    <option value="">Select</option>
+                                    <option value="1">1 Guest</option>
+                                    <option value="2">2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                    <option value="5">5 Guests</option>
+                                    <option value="6">6 Guests</option>
+                                    <option value="7">7 Guests</option>
+                                    <option value="8">8+ Guests</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="specialRequests">Special Requests</label>
+                            <textarea id="specialRequests" name="specialRequests" rows="3" placeholder="Dietary restrictions, special occasions, etc."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Make Reservation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Get in touch with us</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>📍 Address</h4>
+                        <p>123 Culinary Street<br>
+                           Meerut District<br>
+                           India, N=250005</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>📞 Phone</h4>
+                        <p>+91 1214587635</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>📧 Email</h4>
+                        <p>info@flamesrestaurant.com</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>🌐 Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">Facebook</a>
+                            <a href="#" class="social-link">Instagram</a>
+                            <a href="#" class="social-link">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send us a Message</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Name</label>
+                                <input type="text" id="contactName" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email</label>
+                                <input type="email" id="contactEmail" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🔥 Flames</h3>
+                    <p>Where culinary artistry meets exceptional dining. Experience the finest flavors crafted with passion and precision.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 123 Culinary Street, Meerut,250005</p>
+                    <p>📞 +91 1214578963</p>
+                    <p>📧 info@flamesrestaurant.com</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Monday - Thursday: 10:00 AM - 10:00 PM</p>
+                    <p>Friday - Saturday: 10:00 AM - 11:00 PM</p>
+                    <p>Sunday: 4:00 PM - 9:00 PM</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Flames Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Success!</h3>
+            <p id="modalMessage">Your request has been submitted successfully.</p>
+            <button class="btn btn-primary" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="restaurant.js"></script>
+</body>
+</html>
